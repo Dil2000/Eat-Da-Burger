@@ -8,6 +8,7 @@ var router = express.Router();
 
 var burger = require("../models/burger.js");
 
+// Render all the burger data
 router.get("/", function(req,res){
   burger.all(function(data){
     var hbsObject = {
@@ -16,6 +17,17 @@ router.get("/", function(req,res){
     console.log(hbsObject);
     res.render("index", hbsObject);
   });
+});
+
+// Create a new Burger
+router.post("/", function(req,res){
+  burger.create([
+  	  "burger_name","devoured"
+  	],[
+      req.body.name, false
+  	],function() {
+  		res.redirect("/");
+  	});
 });
 
 module.exports = router;
