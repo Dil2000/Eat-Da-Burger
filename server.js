@@ -15,6 +15,10 @@ var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
+// Style Sheets and images
+app.use(express.static(__dirname + "/public/assets/css"));
+app.use(express.static(__dirname + "/public/assets/images"));
+
 var routes = require("./controllers/burgers_controller.js");
 
 app.use('/', routes);
