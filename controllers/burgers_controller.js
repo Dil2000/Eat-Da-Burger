@@ -5,7 +5,8 @@ var burger = require("../models/burger.js");
 
 // get route -> index
 router.get("*", function(req, res) {
-  res.redirect("/burgers");
+  //res.redirect("/burgers");
+  console.log("working");
 });
 
 router.get("/burgers", function(req, res) {
