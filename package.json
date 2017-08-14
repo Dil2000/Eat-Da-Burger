@@ -1,31 +1,35 @@
 {
-  "name": "eat-da-burger",
+  "name": "dil",
   "version": "1.0.0",
-  "description": "Buger eating application with Node.js, Express, Handlebars, and MySQL.",
+  "description": "Input the names of burgers they like to eat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angrbrd/eat-da-burger.git"
+    "url": "git+https://github.com/Dil2000/Eat-Da-Burger.git"
   },
   "keywords": [
-    "burgers",
-    "eating",
-    "burgerfi"
+    "burger",
+    "handlebars",
+    "express",
+    "mvc",
+    "mysql"
   ],
-  "author": "Anna D Derbakova",
-  "license": "ISC",
+  "author": "dil",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/angrbrd/eat-da-burger/issues"
+    "url": "https://github.com/Dil2000/Eat-Da-Burger/issues"
   },
-  "homepage": "https://github.com/angrbrd/eat-da-burger#readme",
+  "homepage": "https://github.com/Dil2000/Eat-Da-Burger#readme",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.7",
-    "mysql": "^2.13.0"
+    "handlebars": "^4.0.10",
+    "method-override": "^2.3.9",
+    "mysql": "^2.14.1"
   }
 }
