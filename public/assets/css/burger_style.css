@@ -1,29 +1,21 @@
 
 
 body{
-  font-family: 'Oxygen', sans-serif; 
-  background-color:#5D001E;
+  font-family: 'Indie Flower', cursive;
+  background-color:#9af750;
   color:#e3e2df;
-  font-size:14px;
+  font-size:18px;
 }
 
 
 .container{
-	padding:10px;  
+	padding:10px;      
 }
 
 #Logo{
   padding:16px;
-/*  text-decoration: underline;
-  text-decoration-style:wavy;*/
-}
-
-#gotosurvey{
-  width:300px;
-  height:100px;
-  background-color:#c43235;
-  color:#e6e6e8;
-  font-size:30px;
+  font-size:40px;
+  font-family: 'Sedgwick Ave Display', cursive;
 }
 
 #submit{
@@ -41,34 +33,21 @@ body{
   padding:10px;
 }
 
-.wrapper{
-  height:100vh;
+.centerContainer{
+  background-color:#5D001E;
   width:100%;
+  height:auto;
   box-sizing:border-box;
+  padding:20px;
+  border-radius:80%;
 }
 
 .input-group{
   margin-bottom:30px;
 }
 
-#fieldsRequired{
-  color:red;
-}
-
-.line1{
-  background-color:#c43235;
-  padding:10px;
-  color:#fff;
-  margin:10px;
-  display:inline-block;
-}
-
-.line2{
-  background-color:#300032;
-  padding:10px;
-  color:#fff;
-  margin:10px;
-  display:inline-block;
+#name{
+  color:#5D001E;
 }
 
 #header{
@@ -76,13 +55,10 @@ body{
   color:#fff;
 }
 
-#FourOFour{
-  font-size :250px;
-  color:#c43235;
-}
-
 h1{
   font-size:60px;
+  font-family: 'Sedgwick Ave Display', cursive;
+
 }
 
 button{
@@ -99,11 +75,6 @@ button{
 select{
   width:30%;
   color:#000;
-}
-
-.characters{
-  height:200px;
-  width:200px;
 }
 
 #match{
@@ -139,34 +110,6 @@ footer{
   .wrapper{
     height:auto;
  }
-}
-
-#footerText{
-	color:#9fa8a3;
-  font-size:12px;
-}
-
-abbr{
-  text-decoration:none;
-}
-
-a:active{
-  text-decoration:none;
-}
-
-a:link{
-  text-decoration: none;
- /* color:#e8edf3;*/
-}
-
-a:visited{
-  text-decoration:none;
-  /*color:#e8edf3;*/
-}
-
-a:hover{
-  text-decoration:none;
-  /*color:#e6cf8b;*/
 }
 
 /* Icons */
